@@ -1,0 +1,16 @@
+.container {
+    background-color: #ccc;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /*Direção:
+    flex-diretion: row/ column/ row reverse/ column-reverse
+    flex-wrap: nowrap (nao permite quebra) wrap(permite quebra)*/
+}
+.item{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+}
